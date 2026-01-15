@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="action.php">
+    <div>
+        <label for ="name">Name : </label>
+        <input type="text" id="name" name ="name">
+    </div>
+    <br>
+    <div>
+        Sex: 
+        <input type="radio" id="sex" name="Male">
+        <label for="sex"> Male</label>
+        <input type="radio" id="sex" name="Female">
+        <label for="sex"> Female</label>
+    </div>
+    <br>
+    <div>
+        Country:
+        <select name = Counttry id="country">
+            <option value ="">--Select an option</option>
+            <option value ="India"> India </option>
+            <option value ="Usa">Usa</option>
+            <option value ="Pakistan">Pakistan</option>
+            <option value =" Srilanka"> Srilanka</option>
+            <option value ="Indonesia">Indonesia</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for ="Message"> Message:</label><br>
+        <textarea id ="Message" name="message" Placeholder="write Message here"></textarea>"
+    </div>
+    <div>
+    <input type = "checkbox" id ="agree" name="subscribr?">
+    <label for="agree"> Subscribe?</label>
+    </div>
+    <br>
+    <div>
+        <button type ="submit"> Submit</button>
+    </div>
+    </form>
+</body>
+</html>
