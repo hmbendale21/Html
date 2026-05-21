@@ -1,0 +1,127 @@
+/* Universal Selector  = select everything in a document */
+
+*{
+    Font-family: snas-serif; 
+}
+
+
+/* Element Selector = select all elements of a specific type */
+h1{
+    color : #b92b27;
+}
+
+h2,h3{
+    color: burlywood
+}
+
+
+/* ID Selector = select a specific element with a unique id attribute */
+
+#login{
+    background-color: white;
+    color : black;
+}
+
+#signup{
+    background-color: black;
+    color : white;
+}
+
+/* Class Selector = select all elements with a specific class attribute */
+
+.upvote{
+    background-color: #155dfc;
+    color : white;
+}
+
+/* Descendant selector = select all elements that are descendants of a specified element means ancestors */
+
+p a {
+    color :chocolate;
+}
+
+a {
+    color : yellowgreen
+}
+/* using class */
+
+.user a {
+    background-color: black;
+}
+
+/* sibling combinator = select all elements that are siblings of a specified element means that 1st we take the element and after + that element is came just after the 1st element  */
+
+.upvote + button {
+    background-color : lightseagreen;
+    color : white;
+}
+
+/* child combinator = select all elements that are direct children of a specified element means that 1st we take the element and after > that element is direct child of 1st element */
+
+div > input {
+    background-color: linen;
+    color : black;
+}
+
+/* Attribute selector = select all elements that have a specific attribute or attribute value */
+input[type="text"] {
+    color : blueviolet;
+}
+
+input[type = "password"] {
+    color : red;
+}
+
+input[type] {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Practice Q2 */
+/* set the color for paragraphs inside divs with the id "myId" to green */
+
+#myId  p {
+    color : green;
+}
+
+div[id = "myId"] p {
+    background-color: lightpink;
+}
+
+/* Psuedo class selector = select elements based on their state or position in the document */
+/* 1.Hover state = select elements when the user hovers over them with the mouse pointer */
+
+button:hover {
+    background-color: rgb(246, 9, 9);
+    color : rgb(0, 0, 0);
+}
+
+h3:hover {
+    text-decoration: dotted underline;
+    color : black
+}
+
+/* 2. :active state = select elements when they are being activated by the user means when the user clicks on an element and holds down the mouse button, that element is in the active state. */
+
+button:active {
+    background-color: violet;
+    color: black;
+}
+
+p:active {
+    font-weight: bold ;
+    color : red;
+}
+
+/* 3. :checked state = select elements when they are checked means when a user selects a checkbox or radio button, that element is in the checked state. */
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color : red;
+}
+
+/* 4. nth of type selector = select elements based on their position in a group of siblings means that we can select the nth element of a specific type among its siblings. */
+
+div:nth-of-type(2n+1) {
+    background-color: rgb(72, 119, 135);
+}
+

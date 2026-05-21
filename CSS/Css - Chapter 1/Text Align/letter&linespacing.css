@@ -1,0 +1,16 @@
+<!-- fontsize = 1 inches = 96pixels (px)-->
+
+h3{
+    line-height: 1.5;
+    letter-spacing: 5px;
+    font-size: 29px;
+    font-family: Monaco , Monospace ;
+}
+
+
+h2{
+    line-height: 5;
+    letter-spacing: 10px;
+    font-size: 8px;
+    font-family: Impact;
+}

@@ -1,0 +1,22 @@
+h1{
+    font-weight: bold;
+    text-decoration: red underline wavy;
+}
+
+h2{
+    font-weight: normal;
+    text-decoration: overline dotted;
+}
+p{
+    font-weight: 100;
+    text-decoration: rgb(0, 0, 0) line-through;
+}
+
+h3{
+    font-weight: bolder;
+    text-decoration: blue dashed underline;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
